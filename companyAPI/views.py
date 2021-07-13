@@ -10,9 +10,6 @@ class CompanyView( viewsets.ModelViewSet):
     queryset = Company.objects.all().order_by('date')
     serializer_class = CompanySerializer
     
-    # def get(self, request):
-    #     listReserv = Company.objects.all()
-    #     return JsonResponse(list(listReserv.values()), safe=False)
 
         
     
