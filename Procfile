@@ -1,0 +1,1 @@
+web: gunicorn companyApiProject.wsgi:application --pythonpath app --log-file -
